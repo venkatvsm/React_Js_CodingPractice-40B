@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.thumbnail {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+.popup-content {
+  height: 450px;
+  width: 750px;
+  background-color: #ffff;
+  border-radius: 16px;
+}
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.closebutton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  margin-top: 18px;
+  margin-right: 18px;
+  align-self: flex-end;
+  outline: none;
+}
+.videoplayer {
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
+}

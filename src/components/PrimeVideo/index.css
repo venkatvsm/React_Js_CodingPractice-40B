@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: #000000;
+  font-size: 'Roboto';
+  min-height: 100vh;
+  padding-bottom: 32px;
+}
+.image {
+  width: 100%;
+}
+.cardContainer {
+  width: 90%;
+  margin: auto;
+  padding: 25px;
+}
+.heading {
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .cardContainer {
+    max-width: 1110px;
+  }
+}
